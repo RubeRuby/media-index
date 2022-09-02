@@ -1,7 +1,5 @@
 from fastapi import FastAPI
-from starlette.requests import Request
 from starlette.responses import RedirectResponse
-from fastapi.responses import JSONResponse
 
 from .constants import API_PREFIX
 from indexer_api.api.v1.routes import api_router

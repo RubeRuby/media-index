@@ -2,7 +2,6 @@ FROM debian:11
 
 # install requirements
 RUN apt-get update && apt-get install build-essential python3 python3-dev python3-venv apache2 libapache2-mod-rpaf inotify-tools netcat graphviz pip --yes
-
 RUN pip install poetry
 
 # RUN mkdir /var/log/api/
